@@ -23,10 +23,11 @@ The code requires a running installation of CARLA. Since different versions migh
 - Python3.6
 Please refer to the step-by-step CARLA [installation guide](https://carla.readthedocs.io/en/latest/build_linux/) to install it smoothly.
 After a successful installation of CARLA, create a virtualenv and install the Python API following the instructions.
-Then, install the requirements: `pip install -r requirements.txt`.
+You can then clone the repo in the parent folder where carla is installed.
+Then, install the requirements: `pip install -r requirements.txt` using the same venv.
 
 To allow easier billboard spawning and management we had to change a few of the original blueprints of CARLA. In particular, you will have to replace the `vehicle.audi.a2` (`carla/Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/AudiA2/BP_AudiA2.uasset`) and `vehicle.ford.ambulance` (`carla/Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/Ambulance/BP_Ambulance.uasset`) with the corresponding ones we provide in the `assets` folder.
-Also, copy the file `assets/BP_Decal_Billboard_Auto.uasset` in `carla/Unreal/CarlaUE4/Content` and create a new folder `carla/Unreal/CarlaUE4/Content/patches/patch_auto/`.
+Also, copy the files `assets/BP_Decal_Billboard_Auto.uasset` and `assets/Mat_patch.uasset` in `carla/Unreal/CarlaUE4/Content` and create a new folder `carla/Unreal/CarlaUE4/Content/patches/patch_auto/`.
 
 ### Running the code
 To run the generation code, you will need to open the simulator (CarlaUE4.uproject), and run the simulation.
