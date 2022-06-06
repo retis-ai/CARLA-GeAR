@@ -1,0 +1,42 @@
+{"sensors_config": [
+    {
+        "type": "sensor.camera.rgb", 
+        "x": 1.5, 
+        "y": 0.0, 
+        "z": 1.65, 
+        "roll": 0.0, 
+        "pitch": 0.0, 
+        "yaw": 0.0,
+        "width": 1224, 
+        "height": 370, 
+        "fov": 90, 
+        "id": "RGBCam"
+    },
+    {
+        "type": "sensor.camera.rgb", 
+        "x": 1.5, 
+        "y": 0.54, 
+        "z": 1.65, 
+        "roll": 0.0, 
+        "pitch": 0.0, 
+        "yaw": 0.0,
+        "width": 1224, 
+        "height": 370, 
+        "fov": 90, 
+        "id": "RGBCamDx"
+    },
+    {
+        "type": "sensor.camera.depth", 
+        "x": 1.5, 
+        "y": 0.0, 
+        "z": 1.65, 
+        "roll": 0.0, 
+        "pitch": 0.0, 
+        "yaw": 0.0,
+        "width": 1224, 
+        "height": 370, 
+        "fov": 90, 
+        "id": "DepthCam"
+    }
+    ]
+}

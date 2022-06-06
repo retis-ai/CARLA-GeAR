@@ -1,0 +1,283 @@
+# Name each billboard with billboardXX, or no_billboard, or truck
+billboard01:
+  b1:
+    location:
+      x: -25
+      y: 4
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: 200
+    spawn_config:
+      npc: 
+        min_x: -10
+        max_x: 20
+        min_y: 0
+        max_y: 30
+      ego:
+        min_x: 15
+        max_x: 30
+        min_y: 0
+        max_y: 10
+
+
+# GOOD
+billboard02:
+  b1:
+    location:
+      x: 88
+      y: 144
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -160
+    spawn_config:
+      npc: 
+        min_x: -60
+        max_x: 20
+        min_y: -10
+        max_y: 30
+      ego:
+        min_x: -30 # -40 -35 -30 -25 -20
+        max_x: -15
+        min_y: 0
+        max_y: 10
+
+billboard03:
+  b1:
+    location:
+      x: -28
+      y: -76
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: 30
+    spawn_config:
+      npc: 
+        min_x: -50
+        max_x: 50
+        min_y: 0
+        max_y: 30
+      ego:
+        min_x: 15
+        max_x: 30
+        min_y: 0
+        max_y: 12
+
+
+billboard04:
+  b1:
+    location:
+      x: -122
+      y: 51
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -75
+    spawn_config:
+      npc: 
+        min_x: 0
+        max_x: 30
+        min_y: -20
+        max_y: 50
+      ego:
+        min_x: 0
+        max_x: 12
+        min_y: -30
+        max_y: -15
+
+
+# DOUBLE
+billboard05:
+  b1:
+    location:
+      x: -122
+      y: 16.5
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -180
+    spawn_config:
+      npc: 
+        min_x: 0
+        max_x: 40
+        min_y: -30
+        max_y: 30
+      ego:
+        min_x: 26
+        max_x: 40
+        min_y: -12
+        max_y: 0
+  b2:
+    location:
+      x: -122
+      y: 5.6
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -180
+
+
+# DOUBLE
+billboard06:
+  b1:
+    location:
+      x: 117
+      y: 24.5
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: 0
+    spawn_config:
+      npc: 
+        min_x: 0
+        max_x: 40
+        min_y: -30
+        max_y: 30
+      ego:
+        min_x: -35
+        max_x: -25
+        min_y: 0
+        max_y: 12
+  b2:
+    location:
+      x: 117
+      y: 33.5
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: 0
+
+
+# DOUBLE
+billboard07:
+  b1:
+    location:
+      x: -51
+      y: 145
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -100
+    spawn_config:
+      npc: 
+        min_x: 0
+        max_x: 40
+        min_y: -30
+        max_y: 30
+      ego:
+        min_x: -12
+        max_x: 2
+        min_y: -24
+        max_y: -35
+  b2:
+    location:
+      x: -64
+      y: 145
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -80
+
+
+billboard08:
+  b1:
+    location:
+      x: 37.5
+      y: 72.50
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: -270
+    spawn_config:
+      npc: 
+        min_x: -10
+        max_x: 30
+        min_y: -50
+        max_y: 0
+      ego:
+        min_x: 0
+        max_x: 3
+        min_y: -30
+        max_y: -14
+
+
+billboard09:
+  b1:
+    location:
+      x: -19.50
+      y: 122
+      z: 2
+    rotation:
+      pitch: 0
+      roll: -90
+      yaw: 20
+    spawn_config:
+      npc: 
+        min_x: -20
+        max_x: 40
+        min_y: -10
+        max_y: 30
+      ego:
+        min_x: 15
+        max_x: 30
+        min_y: 0
+        max_y: 12
+
+truck:
+  b1:
+    location:
+      x: 
+      y: 
+      z: 
+    rotation:
+      pitch: 
+      roll: 
+      yaw: 
+    spawn_config:
+      npc: 
+        min_x: -1000 #-10
+        max_x: 1000 #20
+        min_y: -1000 #0
+        max_y: 1000 #20
+      ego:
+        min_x: -1000 #-60
+        max_x: 1000 #-10
+        min_y: -1000 #-10
+        max_y: 1000 #10
+  
+
+
+no_billboard:
+  b1:
+    location:
+      x: 
+      y: 
+      z: 
+    rotation:
+      pitch:
+      roll: 
+      yaw: 
+    spawn_config:
+      npc: 
+        min_x: -1000 #-10
+        max_x: 1000 #20
+        min_y: -1000 #0
+        max_y: 1000 #20
+      ego:
+        min_x: -1000 #-60
+        max_x: 1000 #-10
+        min_y: -1000 #-10
+        max_y: 1000 #10
+  

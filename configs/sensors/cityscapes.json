@@ -1,0 +1,29 @@
+{"sensors_config": [
+    {
+        "type": "sensor.camera.rgb", 
+        "x": 1.5, 
+        "y": 0.0, 
+        "z": 1.65, 
+        "roll": 0.0, 
+        "pitch": 0.0, 
+        "yaw": 0.0,
+        "width": 2048, 
+        "height": 1024, 
+        "fov": 90, 
+        "id": "RGBCam"
+    },
+    {
+        "type": "sensor.camera.semantic_segmentation", 
+        "x": 1.5, 
+        "y": 0.0, 
+        "z": 1.65, 
+        "roll": 0.0, 
+        "pitch": 0.0, 
+        "yaw": 0.0,
+        "width": 2048, 
+        "height": 1024, 
+        "fov": 90, 
+        "id": "SSCam"
+    }
+    ]
+}
