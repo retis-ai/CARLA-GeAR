@@ -50,7 +50,7 @@ In the latter case, there are a few options. If you want to generate a dataset f
 Please note that in the yml you can select any city you want. However, since Town10HD is the most realistic one, we only provided pre-computed billboards positions only for that city. Different cities have not-so-realistic meshes that will make the networks perform poorly.
 
 ### Dataset Evaluation and Patch Generation
-This repo includes only the data generation tool. If you want to perform patch-based attacks, or evaluate the performance of a network or a defense on any of these datasets, please check our tool at this repo: TODO INCLUDE LINK.
+This repo includes only the data generation tool. If you want to perform patch-based attacks, or evaluate the performance of a network or a defense on any of these datasets, please check our tool at this repo: https://github.com/retis-ai/PatchAttackTool.
 
 
 
