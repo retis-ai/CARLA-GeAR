@@ -1,0 +1,20 @@
+basepath: /path/to/root
+root: 3dod
+
+town_name: Town10HD
+weather: # fixed
+
+task: 3dod # ss, 2dod, 3dod, depth
+split: train # train, val, test, debug. Might add _othertext to obtain additional splits.
+billboard: billboard01 # Depends on town!
+patch_folder: # folder where to find the patches
+
+patch_type: # Not used
+net: # Not used
+
+debug: False
+
+
+
+
+
