@@ -1,5 +1,5 @@
 # CARLA-GeAR
-This is the code repository for the data generation of our paper "CARLA-GeAR: A Dataset Generator for Systematic Adversarial Robustness Evaluation of Vision Models". More info can be found at the main project page: https://carlagear.retis.santannapisa.it/.
+This is the code repository for the data generation of our paper "[CARLA-GeAR: A Dataset Generator for Systematic Adversarial Robustness Evaluation of Vision Models](https://arxiv.org/abs/2206.04365)". More info can be found at the main project page: https://carlagear.retis.santannapisa.it/.
 
 This code requires a working installation of CARLA to run. If you cannot/don't want to install the CARLA simulator, please consider using the datasets we provided in the main page.
 
@@ -7,7 +7,23 @@ This code requires a working installation of CARLA to run. If you cannot/don't w
 
 ### Citation
 If you found our work useful, please consider citing the paper!
-TODO include citation.
+```
+@ARTICLE{2022arXiv220604365N,
+       author = {{Nesti}, Federico and {Rossolini}, Giulio and {D'Amico}, Gianluca and {Biondi}, Alessandro and {Buttazzo}, Giorgio},
+        title = "{CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition},
+         year = 2022,
+        month = jun,
+          eid = {arXiv:2206.04365},
+        pages = {arXiv:2206.04365},
+archivePrefix = {arXiv},
+       eprint = {2206.04365},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220604365N%7D,
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
 
 ### Features
 This code allows dataset generation for a systematic evaluation of the adversarial robustness of custom models for 4 different tasks: **Semantic Segmentation** (SS), **2D object detection** (2DOD), **3D Stereo-camera Object Detection** (3DOD), and **Monocular Depth Estimation** (depth). The use of CARLA simulator allows photo-realistic rendering of the meshes, and full control of autonomous driving environment. Hence, it is possible to build several datasets that include surfaces on which an adversary might attach physically-realizable adversarial patches to change the network prediction.
