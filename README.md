@@ -8,21 +8,17 @@ This code requires a working installation of CARLA to run. If you cannot/don't w
 ### Citation
 If you found our work useful, please consider citing the paper!
 ```
-@ARTICLE{2022arXiv220604365N,
-       author = {{Nesti}, Federico and {Rossolini}, Giulio and {D'Amico}, Gianluca and {Biondi}, Alessandro and {Buttazzo}, Giorgio},
-        title = "{CARLA-GeAR: a Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Vision Models}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Computer Vision and Pattern Recognition},
-         year = 2022,
-        month = jun,
-          eid = {arXiv:2206.04365},
-        pages = {arXiv:2206.04365},
-archivePrefix = {arXiv},
-       eprint = {2206.04365},
- primaryClass = {cs.CV},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv220604365N%7D,
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+@ARTICLE{10576049,
+  author={Nesti, Federico and Rossolini, Giulio and D’Amico, Gianluca and Biondi, Alessandro and Buttazzo, Giorgio},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={CARLA-GeAR: A Dataset Generator for a Systematic Evaluation of Adversarial Robustness of Deep Learning Vision Models}, 
+  year={2024},
+  volume={25},
+  number={8},
+  pages={9840-9851},
+  keywords={Robustness;Autonomous vehicles;Systematics;Object detection;Benchmark testing;Three-dimensional displays;Adversarial machine learning;Autonomous driving;Adversarial robustness;autonomous driving;CARLA simulator;adversarial defenses},
+  doi={10.1109/TITS.2024.3412432}}
+
 ```
 
 ### Features
